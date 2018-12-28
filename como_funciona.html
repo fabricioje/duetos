@@ -16,7 +16,8 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <script src="js/modernizr.custom.70736.js"></script>
         <noscript>
-            <link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript>
+            <link rel="stylesheet" type="text/css" href="css/noJS.css" />
+        </noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 
         <!-- BOOTSTRAP -->
@@ -26,9 +27,16 @@
         <script src="bootstrap/js/bootstrap.js"></script>
 
 
+        <!-- CONFIGURAÇÃO SLICK -->
+        <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+        <!-- Add the new slick-theme.css if you want the default styling -->
+        <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
 
-        <script src="cycle.js"></script> <!-- 16 KB -->
-        <script src="teste.js"></script> <!-- 16 KB -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+        <script type="text/javascript" src="js/slick.js"></script>
 
 
     </head>
@@ -72,55 +80,112 @@
     <main>
         <div class="container">
 
-                <div class="slideshow" data-cycle-fx=carousel data-cycle-timeout=1000>
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                <img src="http://malsup.github.io/images/beach1.jpg">
-                <img src="http://malsup.github.io/images/beach2.jpg">
-                ...
-                <img src="http://malsup.github.io/images/beach9.jpg">
-            </div>
-               
 
-            <p style="border: dotted;  padding: 5px;">
-                O primeiro passo para realizarmos seu projeto dos sonhos é obtendo as medidas ou planta baixa cotada do seu ambiente. Caso o espaço já esteja finalizado, com azulejos e pintura, por favor nos envie também fotos!
-            </p>
-            <p style="border: ridge; border-width: 10px; padding: 5px;">
-                Em seguida vamos realizar o briefing, onde você deve responder cada pergunta com muita atenção, pois é através das respostas que vamos analisar em qual estilo seu projeto se encaixa.
-            </p>
-            <p style="border: double; border-width: thick; padding: 5px;">
-                Após analisarmos seu questionário, enviamos o orçamento e assim que o pagamento for autorizado iniciamos o desenvolvimento do projeto, que deve ser concluido em dez dias uteis.
-            </p>
-            <p style="border: ridge;border-width: 10px; border-color:dimgrey; padding: 5px;">
-                Finalizado seu projeto, marcamos uma reuniao online para a apresentação do mesmo. Ele pode ser alterado até duas vezes, caso aja necessidade posteriormente de alguma alteração, será cobrado 30% do valor do projeto.
-            </p>
-            <p style="border: ridge; border-width: 10px; padding: 5px;">
-                Com o projeto aprovado, podemos então lhe enviar todo o material necessário para que ele seja executado, ou seja, planta baixa e cortes, paginação de gesso, paginação de piso, projeto luminotécnico, distribuição de pontos elétricos e hidráulicos, projeto para marcenaria, projeto de decoração e memorial descritivo. Tudo isso junto com as imagens humanizadas do projeto a ser realizado. Chamamos esse conjuntos de informações de projeto executivo, e para lhe enviar pedimos um prazo de dez dias úteis. 
-            </p>
+            <div class="slideshow">
+                <div>
+                    <img src="imagens/puzzle.png">
+                </div>
+                <div>
+                    <img src="imagens/slick/1.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/2.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/3.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/4.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/5.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/6.jpeg">
+                </div>
+                <div>
+                    <img src="imagens/slick/7.jpeg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach1.jpg">
+                </div>
+                <div>
+                    <img src="http://malsup.github.io/images/beach2.jpg">
+                </div>                                                
+            </div>
+
+            <div class="row" style="border: dotted; padding: 5px; border-color: darkgrey; border-width: thin; border-width: 2px">
+
+                <div class="col-md-1">
+                    <img src="imagens/step-by-step-icon-1.jpg" alt="passo" style="width: 100px; height: 100px">                
+                </div>
+                
+                <div class="col-md-11"></span>
+                    O primeiro passo para realizarmos seu projeto dos sonhos é obtendo as medidas ou planta baixa cotada do seu ambiente. Caso o espaço já esteja finalizado, com azulejos e pintura, por favor nos envie também fotos!
+                </div>
+   
+            </div>
+            
+            <div class="col-md-12" style="border: ridge; border-width: 10px; padding: 5px; border-collapse: red">
+
+                <div class="col-md-1">
+                    <img src="imagens/step-by-step-icon-1.jpg" alt="passo" style="width: 100px; height: 100px">                
+                </div>
+                
+                <div class="col-md-11"></span>
+                    Em seguida vamos realizar o briefing, onde você deve responder cada pergunta com muita atenção, pois é através das respostas que vamos analisar em qual estilo seu projeto se encaixa.
+                </div>
+                
+                    
+            </div>
+
+            <div>
+                <p style="border: double; border-width: thick; padding: 5px;">
+                    Após analisarmos seu questionário, enviamos o orçamento e assim que o pagamento for autorizado iniciamos o desenvolvimento do projeto, que deve ser concluido em dez dias uteis.
+                </p>
+            </div>
+
+            <div>
+                <p style="border: ridge;border-width: 10px; border-color:dimgrey; padding: 5px;">
+                    Finalizado seu projeto, marcamos uma reuniao online para a apresentação do mesmo. Ele pode ser alterado até duas vezes, caso aja necessidade posteriormente de alguma alteração, será cobrado 30% do valor do projeto.
+                </p>
+            </div>
+
+            <div>
+                <p style="border: ridge; border-width: 10px; padding: 5px;">
+                    Com o projeto aprovado, podemos então lhe enviar todo o material necessário para que ele seja executado, ou seja, planta baixa e cortes, paginação de gesso, paginação de piso, projeto luminotécnico, distribuição de pontos elétricos e hidráulicos, projeto para marcenaria, projeto de decoração e memorial descritivo. Tudo isso junto com as imagens humanizadas do projeto a ser realizado. Chamamos esse conjuntos de informações de projeto executivo, e para lhe enviar pedimos um prazo de dez dias úteis. 
+                </p>
+            </div>
 
 
         </div>
